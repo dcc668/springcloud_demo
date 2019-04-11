@@ -1,0 +1,16 @@
+server:
+  port: 8183
+spring:
+  application:
+    name: config-server-eureka
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/xx6xx/cloud_config     # 配置Git仓库的地址
+          username: xx6xx                                                      # Git仓库的账号
+          password: dcc1234                                                     # Git仓库的密码
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
