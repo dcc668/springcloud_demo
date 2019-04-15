@@ -4,12 +4,16 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud_config_client/cloud_config_client.iml" filepath="$PROJECT_DIR$/cloud_config_client/cloud_config_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud_config_server/cloud_config_server.iml" filepath="$PROJECT_DIR$/cloud_config_server/cloud_config_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/docker_maven_plugin/docker_maven_plugin.iml" filepath="$PROJECT_DIR$/docker_maven_plugin/docker_maven_plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_client/eureka_client.iml" filepath="$PROJECT_DIR$/eureka_client/eureka_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/eureka_server/eureka_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign_client/feign_client.iml" filepath="$PROJECT_DIR$/feign_client/feign_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon_rest_template_client/ribbon_rest_template_client.iml" filepath="$PROJECT_DIR$/ribbon_rest_template_client/ribbon_rest_template_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_admin/springboot_admin.iml" filepath="$PROJECT_DIR$/springboot_admin/springboot_admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud_demo.iml" filepath="$PROJECT_DIR$/.idea/springcloud_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srpingboot_admin_test/srpingboot_admin_test.iml" filepath="$PROJECT_DIR$/srpingboot_admin_test/srpingboot_admin_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin_rabbit_elasticsearch_client/zipkin_rabbit_elasticsearch_client.iml" filepath="$PROJECT_DIR$/zipkin_rabbit_elasticsearch_client/zipkin_rabbit_elasticsearch_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul_client/zuul_client.iml" filepath="$PROJECT_DIR$/zuul_client/zuul_client.iml" />
     </modules>
   </component>

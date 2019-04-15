@@ -1,0 +1,19 @@
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.6.251:8761/eureka/
+  instance:
+    instance-id: 192.168.6.37:${server.port}
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+    hostname: 192.168.6.37
+
+spring:
+  application:
+    name: admin-ui
+
+logging:
+  file: /log/admin-ui.log

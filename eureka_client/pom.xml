@@ -3,10 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>springcloud_demo</artifactId>
-        <groupId>com.example</groupId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
+    <artifactId>springcloud_demo</artifactId>
+    <groupId>com.example</groupId>
+    <version>1.0-SNAPSHOT</version>
+</parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>eureka_client</artifactId>
@@ -24,7 +24,7 @@
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-client</artifactId>
-            <version>2.0.3</version>
+            <version>2.0.4</version>
         </dependency>
     </dependencies>
 

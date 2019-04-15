@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.31">
     <CLASSES>
-      <root url="jar://H:/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.31/tomcat-embed-el-8.5.31.jar!/" />
+      <root url="jar://G:/LocalJarRepository_web1.2/org/apache/tomcat/embed/tomcat-embed-el/8.5.31/tomcat-embed-el-8.5.31.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://H:/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.31/tomcat-embed-el-8.5.31-javadoc.jar!/" />
+      <root url="jar://G:/LocalJarRepository_web1.2/org/apache/tomcat/embed/tomcat-embed-el/8.5.31/tomcat-embed-el-8.5.31-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://H:/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.31/tomcat-embed-el-8.5.31-sources.jar!/" />
+      <root url="jar://G:/LocalJarRepository_web1.2/org/apache/tomcat/embed/tomcat-embed-el/8.5.31/tomcat-embed-el-8.5.31-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

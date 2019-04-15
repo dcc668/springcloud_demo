@@ -1,0 +1,29 @@
+server:
+  port: 9099
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.6.251:8761/eureka/
+  instance:
+    instance-id: 192.168.6.37:${server.port}
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+    hostname: 192.168.6.37
+spring:
+  application:
+    name: service111
+#监控服务器地址
+  boot:
+    admin:
+      client:
+        url: http://192.168.6.37:8888
+        instance:
+          prefer-ip: true
+          service-base-url: http://192.168.6.37:${server.port}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+

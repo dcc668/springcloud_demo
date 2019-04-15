@@ -17,6 +17,10 @@
         <module>springboot_admin</module>
         <module>cloud_config_server</module>
         <module>cloud_config_client</module>
+        <module>docker_maven_plugin</module>
+        <module>common</module>
+        <module>srpingboot_admin_test</module>
+        <module>zipkin_rabbit_elasticsearch_client</module>
     </modules>
 
     <parent>

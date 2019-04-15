@@ -1,0 +1,19 @@
+server:
+  port: 8481
+spring:
+  application:
+    name: zipkin-client
+  zipkin:
+    #Zipkin Server 的 ip:port
+    base-url: http://192.168.192.131:9410/
+    rabbitmq:
+      queue: zipkin
+  rabbitmq:
+    host: 192.168.192.131
+    port: 5672
+    username: guest
+    password: guest
+  #这里把抽样百分比设置为1，即信息全部采集
+  sleuth:
+    sampler:
+      probability: 1.0

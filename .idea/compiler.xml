@@ -6,25 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ribbon_rest_template_client" />
+        <module name="cloud_config_client" />
+        <module name="cloud_config_server" />
+        <module name="common" />
+        <module name="docker_maven_plugin" />
+        <module name="eureka_client" />
         <module name="eureka_server" />
         <module name="feign_client" />
-        <module name="cloud_config_server" />
-        <module name="cloud_config_client" />
-        <module name="zuul_client" />
-        <module name="eureka_client" />
+        <module name="ribbon_rest_template_client" />
         <module name="springboot_admin" />
+        <module name="srpingboot_admin_test" />
+        <module name="zipkin_rabbit_elasticsearch_client" />
+        <module name="zuul_client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud_config_client" target="1.8" />
       <module name="cloud_config_server" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="docker_maven_plugin" target="1.8" />
       <module name="eureka_client" target="1.8" />
       <module name="eureka_server" target="1.8" />
       <module name="feign_client" target="1.8" />
       <module name="ribbon_rest_template_client" target="1.8" />
       <module name="springboot_admin" target="1.8" />
       <module name="springcloud_demo" target="1.8" />
+      <module name="srpingboot_admin_test" target="1.8" />
+      <module name="zipkin_elasticsearch_server" target="1.8" />
+      <module name="zipkin_rabbit_elasticsearch_client" target="1.8" />
       <module name="zuul_client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -32,11 +41,16 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud_config_client" options="-parameters" />
       <module name="cloud_config_server" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="docker_maven_plugin" options="-parameters" />
       <module name="eureka_client" options="-parameters" />
       <module name="eureka_server" options="-parameters" />
       <module name="feign_client" options="-parameters" />
       <module name="ribbon_rest_template_client" options="-parameters" />
       <module name="springboot_admin" options="-parameters" />
+      <module name="srpingboot_admin_test" options="-parameters" />
+      <module name="zipkin_elasticsearch_server" options="-parameters" />
+      <module name="zipkin_rabbit_elasticsearch_client" options="-parameters" />
       <module name="zuul_client" options="-parameters" />
     </option>
   </component>

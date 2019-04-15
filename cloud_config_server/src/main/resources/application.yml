@@ -13,4 +13,10 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone:  http://192.168.6.251:8761/eureka/
+  #服务中心的信息显示（如果IP地址不显示的话，进行配置）ip:port
+  instance:
+    instance-id: 192.168.6.37:${server.port}
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+    hostname: 192.168.6.37
